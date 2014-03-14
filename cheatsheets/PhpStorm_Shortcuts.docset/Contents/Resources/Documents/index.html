@@ -1,0 +1,1672 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>PhpStorm</title>
+    <link href='style.css' rel='stylesheet'>
+    <link href='//dash_ref/Category/General/1'>
+    <link href='//dash_ref_General/Entry/ツールウィンドウを開く/0'>
+    <link href='//dash_ref_General/Entry/同期/0'>
+    <link href='//dash_ref_General/Entry/すべてのツールウィンドウを開く%2F閉じる/0'>
+    <link href='//dash_ref_General/Entry/お気に入りに追加/0'>
+    <link href='//dash_ref_General/Entry/現在のプロファイルでファイル内を検査/0'>
+    <link href='//dash_ref_General/Entry/スキーマ変更メニュー表示/0'>
+    <link href='//dash_ref_General/Entry/タブ%2Fツールウィンドウ間移動/0'>
+    <link href='//dash_ref_General/Entry/アクションを探す/0'>
+    <link href='//dash_ref_General/Entry/どこでも検索/0'>
+    <link href='//dash_ref/Category/Editing/1'>
+    <link href='//dash_ref_Editing/Entry/コード補完(ベーシック)/0'>
+    <link href='//dash_ref_Editing/Entry/コード補完(スマート)/0'>
+    <link href='//dash_ref_Editing/Entry/現在のステートメントを完了/0'>
+    <link href='//dash_ref_Editing/Entry/クイックドキュメントを表示/0'>
+    <link href='//dash_ref_Editing/Entry/外部ドキュメントを表示/0'>
+    <link href='//dash_ref_Editing/Entry/概要を表示/0'>
+    <link href='//dash_ref_Editing/Entry/カーソル位置のエラー概要を表示/0'>
+    <link href='//dash_ref_Editing/Entry/コード生成/0'>
+    <link href='//dash_ref_Editing/Entry/オーバーロードできるメソッドを表示/0'>
+    <link href='//dash_ref_Editing/Entry/インプリメントできるメソッドを表示/0'>
+    <link href='//dash_ref_Editing/Entry/コードを囲む/0'>
+    <link href='//dash_ref_Editing/Entry/コメントイン%2Fコメントアウト/0'>
+    <link href='//dash_ref_Editing/Entry/ブロックコメントのコメントイン%2Fコメントアウト/0'>
+    <link href='//dash_ref_Editing/Entry/カーソル下の単語%2Fブロック単位で範囲選択を広げる/0'>
+    <link href='//dash_ref_Editing/Entry/カーソル下の単語%2Fブロック単位で範囲選択を狭める/0'>
+    <link href='//dash_ref_Editing/Entry/コンテキストを表示/0'>
+    <link href='//dash_ref_Editing/Entry/検査結果及びクイックフィックスを表示/0'>
+    <link href='//dash_ref_Editing/Entry/コードフォーマットの実施/0'>
+    <link href='//dash_ref_Editing/Entry/インポートの最適化/0'>
+    <link href='//dash_ref_Editing/Entry/行の自動インデント/0'>
+    <link href='//dash_ref_Editing/Entry/現在の行を1つインデントを増やす/0'>
+    <link href='//dash_ref_Editing/Entry/現在の行を1つインデントを減らす/0'>
+    <link href='//dash_ref_Editing/Entry/選択範囲 または 現在の行を切り取り/0'>
+    <link href='//dash_ref_Editing/Entry/選択範囲 または 現在の行をコピー/0'>
+    <link href='//dash_ref_Editing/Entry/クリップボードから貼り付け/0'>
+    <link href='//dash_ref_Editing/Entry/バッファから貼り付け/0'>
+    <link href='//dash_ref_Editing/Entry/選択範囲 または 現在の行を複製/0'>
+    <link href='//dash_ref_Editing/Entry/削除/0'>
+    <link href='//dash_ref_Editing/Entry/下の行との連結/0'>
+    <link href='//dash_ref_Editing/Entry/現在の行を分割/0'>
+    <link href='//dash_ref_Editing/Entry/新しい行に移動/0'>
+    <link href='//dash_ref_Editing/Entry/選択範囲を大文字%2F小文字を切り替え/0'>
+    <link href='//dash_ref_Editing/Entry/現在のブロックの末尾に移動/0'>
+    <link href='//dash_ref_Editing/Entry/現在のブロックの先頭に移動/0'>
+    <link href='//dash_ref_Editing/Entry/カーソルから行末まで削除/0'>
+    <link href='//dash_ref_Editing/Entry/カーソルから行頭まで削除/0'>
+    <link href='//dash_ref_Editing/Entry/コードブロックを展開する/0'>
+    <link href='//dash_ref_Editing/Entry/コードブロックをたたむ/0'>
+    <link href='//dash_ref_Editing/Entry/すべてのコードブロックを展開する/0'>
+    <link href='//dash_ref_Editing/Entry/すべてのコードブロックをたたむ/0'>
+    <link href='//dash_ref_Editing/Entry/現在のタブを閉じる/0'>
+    <link href='//dash_ref/Category/Search %2F Replace/1'>
+    <link href='//dash_ref_Search %2F Replace/Entry/検索/0'>
+    <link href='//dash_ref_Search %2F Replace/Entry/次を検索/0'>
+    <link href='//dash_ref_Search %2F Replace/Entry/前を検索/0'>
+    <link href='//dash_ref_Search %2F Replace/Entry/置換/0'>
+    <link href='//dash_ref_Search %2F Replace/Entry/プロジェクト全体から検索/0'>
+    <link href='//dash_ref_Search %2F Replace/Entry/プロジェクト全体から置換/0'>
+    <link href='//dash_ref/Category/Usage Search/1'>
+    <link href='//dash_ref_Usage Search/Entry/利用箇所を検索/0'>
+    <link href='//dash_ref_Usage Search/Entry/ファイル内の利用箇所を検索/0'>
+    <link href='//dash_ref_Usage Search/Entry/ファイル内の利用箇所をハイライト表示/0'>
+    <link href='//dash_ref_Usage Search/Entry/利用箇所を表示/0'>
+    <link href='//dash_ref/Category/Compile and Run/1'>
+    <link href='//dash_ref_Compile and Run/Entry/プロジェクトをビルド/0'>
+    <link href='//dash_ref_Compile and Run/Entry/実行/0'>
+    <link href='//dash_ref_Compile and Run/Entry/設定を選択して実行/0'>
+    <link href='//dash_ref_Compile and Run/Entry/デバッグ/0'>
+    <link href='//dash_ref_Compile and Run/Entry/設定を選択してデバッグ/0'>
+    <link href='//dash_ref_Compile and Run/Entry/エディタのコンテキストを選択して実行/0'>
+    <link href='//dash_ref/Category/Debugging/1'>
+    <link href='//dash_ref_Debugging/Entry/ステップオーバー/0'>
+    <link href='//dash_ref_Debugging/Entry/ステップイン/0'>
+    <link href='//dash_ref_Debugging/Entry/スマートステップイン/0'>
+    <link href='//dash_ref_Debugging/Entry/ステップアウト/0'>
+    <link href='//dash_ref_Debugging/Entry/カーソル位置までステップオーバー/0'>
+    <link href='//dash_ref_Debugging/Entry/コードの動的実行/0'>
+    <link href='//dash_ref_Debugging/Entry/プログラムの再開/0'>
+    <link href='//dash_ref_Debugging/Entry/ブレイクポイントをトグル/0'>
+    <link href='//dash_ref_Debugging/Entry/全ブレイクポイントを表示/0'>
+    <link href='//dash_ref/Category/Navigation/1'>
+    <link href='//dash_ref_Navigation/Entry/クラスを検索/0'>
+    <link href='//dash_ref_Navigation/Entry/ファイルを検索/0'>
+    <link href='//dash_ref_Navigation/Entry/シンボルを検索/0'>
+    <link href='//dash_ref_Navigation/Entry/次のタブへ移動/0'>
+    <link href='//dash_ref_Navigation/Entry/前のタブに移動/0'>
+    <link href='//dash_ref_Navigation/Entry/前のツールウィンドウへ移動/0'>
+    <link href='//dash_ref_Navigation/Entry/ツールウィンドウからエディタへ移動/0'>
+    <link href='//dash_ref_Navigation/Entry/現在のアクティブ または 1つ前のアクティブウィンドウを非表示/0'>
+    <link href='//dash_ref_Navigation/Entry/現在のタブを閉じる/0'>
+    <link href='//dash_ref_Navigation/Entry/指定した行に移動/0'>
+    <link href='//dash_ref_Navigation/Entry/直近に開いたファイル一覧を表示/0'>
+    <link href='//dash_ref_Navigation/Entry/直前のカーソル位置へ移動/0'>
+    <link href='//dash_ref_Navigation/Entry/直後のカーソル位置へ移動/0'>
+    <link href='//dash_ref_Navigation/Entry/最後に編集した行へ移動/0'>
+    <link href='//dash_ref_Navigation/Entry/直前のカーソル位置へ移動/0'>
+    <link href='//dash_ref_Navigation/Entry/現在のファイルを○○で開く/0'>
+    <link href='//dash_ref_Navigation/Entry/定義元に移動/0'>
+    <link href='//dash_ref_Navigation/Entry/実装クラスへ移動/0'>
+    <link href='//dash_ref_Navigation/Entry/クラスの定義元に移動/0'>
+    <link href='//dash_ref_Navigation/Entry/スーパークラス%2Fスーパーメソッドに移動/0'>
+    <link href='//dash_ref_Navigation/Entry/1つ手前のメソッドに移動/0'>
+    <link href='//dash_ref_Navigation/Entry/1つ先のメソッドに移動/0'>
+    <link href='//dash_ref_Navigation/Entry/コードブロックの先頭に移動/0'>
+    <link href='//dash_ref_Navigation/Entry/コードブロックの末尾に移動/0'>
+    <link href='//dash_ref_Navigation/Entry/ファイル構造をポップアップ表示/0'>
+    <link href='//dash_ref_Navigation/Entry/クラスの階層構造を表示/0'>
+    <link href='//dash_ref_Navigation/Entry/メソッドの階層構造を表示/0'>
+    <link href='//dash_ref_Navigation/Entry/コール状態の階層構造を表示/0'>
+    <link href='//dash_ref_Navigation/Entry/次のエラーに移動/0'>
+    <link href='//dash_ref_Navigation/Entry/前のエラーに移動/0'>
+    <link href='//dash_ref_Navigation/Entry/ファイルを開く/0'>
+    <link href='//dash_ref_Navigation/Entry/ファイルを開く/0'>
+    <link href='//dash_ref_Navigation/Entry/数字でブックマークをつける%2Fはずす/0'>
+    <link href='//dash_ref_Navigation/Entry/数字%2F文字列でのブックマークをつける%2Fはずす/0'>
+    <link href='//dash_ref_Navigation/Entry/数字でのブックマークへ移動/0'>
+    <link href='//dash_ref_Navigation/Entry/ブックマーク一覧をポップアップ表示/0'>
+    <link href='//dash_ref/Category/Refactoring/1'>
+    <link href='//dash_ref_Refactoring/Entry/カーソル位置をリファクタリング/0'>
+    <link href='//dash_ref_Refactoring/Entry/コピー/0'>
+    <link href='//dash_ref_Refactoring/Entry/移動/0'>
+    <link href='//dash_ref_Refactoring/Entry/セーフデリート/0'>
+    <link href='//dash_ref_Refactoring/Entry/名前変更/0'>
+    <link href='//dash_ref_Refactoring/Entry/シグネチャ変更/0'>
+    <link href='//dash_ref_Refactoring/Entry/インライン/0'>
+    <link href='//dash_ref_Refactoring/Entry/メソッドを抜き出す/0'>
+    <link href='//dash_ref_Refactoring/Entry/変数を追加/0'>
+    <link href='//dash_ref_Refactoring/Entry/パラメータを追加/0'>
+    <link href='//dash_ref_Refactoring/Entry/プロパティを追加/0'>
+    <link href='//dash_ref_Refactoring/Entry/定数を追加/0'>
+    <link href='//dash_ref_Refactoring/Entry/インスタンス変数を追加/0'>
+    <link href='//dash_ref/Category/VCS %2F Local History/1'>
+    <link href='//dash_ref_VCS %2F Local History/Entry/コミット/0'>
+    <link href='//dash_ref_VCS %2F Local History/Entry/アップデート/0'>
+    <link href='//dash_ref_VCS %2F Local History/Entry/変更箇所を表示/0'>
+    <link href='//dash_ref_VCS %2F Local History/Entry/VCS操作をポップアップ/0'>
+    <link href='//dash_ref/Category/Live Templates/1'>
+    <link href='//dash_ref_Live Templates/Entry/スニペットで包む/0'>
+    <link href='//dash_ref_Live Templates/Entry/スニペットを挿入/0'>
+  </head>
+  <body>
+    <header>
+      <h1>PhpStorm</h1>
+    </header>
+    <article>
+      <p></p>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/General/1'>
+          General
+        </h2>
+        <table>
+          <tr id='//dash_ref_General/Entry/ツールウィンドウを開く/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+0-9</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>ツールウィンドウを開く</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_General/Entry/同期/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+Y</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>同期</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_General/Entry/すべてのツールウィンドウを開く%2F閉じる/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+F12</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>すべてのツールウィンドウを開く/閉じる</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_General/Entry/お気に入りに追加/0'>
+            <td class='command'>
+              <p>
+                <code>⌥+⇧+F</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>お気に入りに追加</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_General/Entry/現在のプロファイルでファイル内を検査/0'>
+            <td class='command'>
+              <p>
+                <code>⌥+⇧+I</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>現在のプロファイルでファイル内を検査</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_General/Entry/スキーマ変更メニュー表示/0'>
+            <td class='command'>
+              <p>
+                <code>^+§</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>スキーマ変更メニュー表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_General/Entry/タブ%2Fツールウィンドウ間移動/0'>
+            <td class='command'>
+              <p>
+                <code>^+Tab</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>タブ/ツールウィンドウ間移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_General/Entry/アクションを探す/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+A</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>アクションを探す</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_General/Entry/どこでも検索/0'>
+            <td class='command'>
+              <p>
+                <code>⇧+⇧</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>どこでも検索</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/Editing/1'>
+          Editing
+        </h2>
+        <table>
+          <tr id='//dash_ref_Editing/Entry/コード補完(ベーシック)/0'>
+            <td class='command'>
+              <p>
+                <code>^+Space</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>コード補完(ベーシック)</p></div>
+              <div class='notes'><p>変数やクラス名、メソッド名のコード補完</p></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/コード補完(スマート)/0'>
+            <td class='command'>
+              <p>
+                <code>^+⇧+Space</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>コード補完(スマート)</p></div>
+              <div class='notes'><p>定義されているメソッドや適切な変数、クラスをコード補完</p></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/現在のステートメントを完了/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+Enter</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>現在のステートメントを完了</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/クイックドキュメントを表示/0'>
+            <td class='command'>
+              <p>
+                <code>^+J</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>クイックドキュメントを表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/外部ドキュメントを表示/0'>
+            <td class='command'>
+              <p>
+                <code>⇧+F1</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>外部ドキュメントを表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/概要を表示/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+mouse over code</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>概要を表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/カーソル位置のエラー概要を表示/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+F1</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>カーソル位置のエラー概要を表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/コード生成/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+N</code>
+              </p>
+              <p>
+                <code>^+N</code>
+              </p>
+              <p>
+                <code>^+Enter</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>コード生成</p></div>
+              <div class='notes'><p>アクセサ、コンストラクタなど</p></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/オーバーロードできるメソッドを表示/0'>
+            <td class='command'>
+              <p>
+                <code>^+O</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>オーバーロードできるメソッドを表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/インプリメントできるメソッドを表示/0'>
+            <td class='command'>
+              <p>
+                <code>^+I</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>インプリメントできるメソッドを表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/コードを囲む/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+T</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>コードを囲む</p></div>
+              <div class='notes'><p><code>if..else</code>, <code>try..catch</code>, <code>for</code> など</p></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/コメントイン%2Fコメントアウト/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+/</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>コメントイン/コメントアウト</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/ブロックコメントのコメントイン%2Fコメントアウト/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+/</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>ブロックコメントのコメントイン/コメントアウト</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/カーソル下の単語%2Fブロック単位で範囲選択を広げる/0'>
+            <td class='command'>
+              <p>
+                <code>^+W</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>カーソル下の単語/ブロック単位で範囲選択を広げる</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/カーソル下の単語%2Fブロック単位で範囲選択を狭める/0'>
+            <td class='command'>
+              <p>
+                <code>^+⇧+W</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>カーソル下の単語/ブロック単位で範囲選択を狭める</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/コンテキストを表示/0'>
+            <td class='command'>
+              <p>
+                <code>^+⇧+Q</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>コンテキストを表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/検査結果及びクイックフィックスを表示/0'>
+            <td class='command'>
+              <p>
+                <code>⌥+Enter</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>検査結果及びクイックフィックスを表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/コードフォーマットの実施/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+L</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>コードフォーマットの実施</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/インポートの最適化/0'>
+            <td class='command'>
+              <p>
+                <code>^+⌥+O</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>インポートの最適化</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/行の自動インデント/0'>
+            <td class='command'>
+              <p>
+                <code>^+⌥+I</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>行の自動インデント</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/現在の行を1つインデントを増やす/0'>
+            <td class='command'>
+              <p>
+                <code>Tab</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>現在の行を1つインデントを増やす</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/現在の行を1つインデントを減らす/0'>
+            <td class='command'>
+              <p>
+                <code>⇧+Tab</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>現在の行を1つインデントを減らす</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/選択範囲 または 現在の行を切り取り/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+X</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>選択範囲 または 現在の行を切り取り</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/選択範囲 または 現在の行をコピー/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+C</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>選択範囲 または 現在の行をコピー</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/クリップボードから貼り付け/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+V</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>クリップボードから貼り付け</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/バッファから貼り付け/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+V</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>バッファから貼り付け</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/選択範囲 または 現在の行を複製/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+D</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>選択範囲 または 現在の行を複製</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/削除/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+Backspace</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>削除</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/下の行との連結/0'>
+            <td class='command'>
+              <p>
+                <code>^+⇧+J</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>下の行との連結</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/現在の行を分割/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+Enter</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>現在の行を分割</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/新しい行に移動/0'>
+            <td class='command'>
+              <p>
+                <code>⇧+Enter</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>新しい行に移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/選択範囲を大文字%2F小文字を切り替え/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+U</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>選択範囲を大文字/小文字を切り替え</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/現在のブロックの末尾に移動/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+]</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>現在のブロックの末尾に移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/現在のブロックの先頭に移動/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+[</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>現在のブロックの先頭に移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/カーソルから行末まで削除/0'>
+            <td class='command'>
+              <p>
+                <code>⌥+Delete</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>カーソルから行末まで削除</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/カーソルから行頭まで削除/0'>
+            <td class='command'>
+              <p>
+                <code>⌥+Backspace</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>カーソルから行頭まで削除</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/コードブロックを展開する/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+&quot;+&quot;</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>コードブロックを展開する</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/コードブロックをたたむ/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+&quot;-&quot;</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>コードブロックをたたむ</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/すべてのコードブロックを展開する/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+&quot;+&quot;</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>すべてのコードブロックを展開する</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/すべてのコードブロックをたたむ/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+&quot;-&quot;</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>すべてのコードブロックをたたむ</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Editing/Entry/現在のタブを閉じる/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+W</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>現在のタブを閉じる</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/Search %2F Replace/1'>
+          Search / Replace
+        </h2>
+        <table>
+          <tr id='//dash_ref_Search %2F Replace/Entry/検索/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+F</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>検索</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Search %2F Replace/Entry/次を検索/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+G</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>次を検索</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Search %2F Replace/Entry/前を検索/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+G</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>前を検索</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Search %2F Replace/Entry/置換/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+R</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>置換</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Search %2F Replace/Entry/プロジェクト全体から検索/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+F</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>プロジェクト全体から検索</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Search %2F Replace/Entry/プロジェクト全体から置換/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+R</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>プロジェクト全体から置換</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/Usage Search/1'>
+          Usage Search
+        </h2>
+        <table>
+          <tr id='//dash_ref_Usage Search/Entry/利用箇所を検索/0'>
+            <td class='command'>
+              <p>
+                <code>⌥+F7</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>利用箇所を検索</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Usage Search/Entry/ファイル内の利用箇所を検索/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+F7</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>ファイル内の利用箇所を検索</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Usage Search/Entry/ファイル内の利用箇所をハイライト表示/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+F7</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>ファイル内の利用箇所をハイライト表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Usage Search/Entry/利用箇所を表示/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+F7</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>利用箇所を表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/Compile and Run/1'>
+          Compile and Run
+        </h2>
+        <table>
+          <tr id='//dash_ref_Compile and Run/Entry/プロジェクトをビルド/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+F9</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>プロジェクトをビルド</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Compile and Run/Entry/実行/0'>
+            <td class='command'>
+              <p>
+                <code>^+R</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>実行</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Compile and Run/Entry/設定を選択して実行/0'>
+            <td class='command'>
+              <p>
+                <code>^+⌥+R</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>設定を選択して実行</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Compile and Run/Entry/デバッグ/0'>
+            <td class='command'>
+              <p>
+                <code>^+D</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>デバッグ</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Compile and Run/Entry/設定を選択してデバッグ/0'>
+            <td class='command'>
+              <p>
+                <code>^+⌥+D</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>設定を選択してデバッグ</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Compile and Run/Entry/エディタのコンテキストを選択して実行/0'>
+            <td class='command'>
+              <p>
+                <code>^+⇧+R</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>エディタのコンテキストを選択して実行</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/Debugging/1'>
+          Debugging
+        </h2>
+        <table>
+          <tr id='//dash_ref_Debugging/Entry/ステップオーバー/0'>
+            <td class='command'>
+              <p>
+                <code>F8</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>ステップオーバー</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Debugging/Entry/ステップイン/0'>
+            <td class='command'>
+              <p>
+                <code>F7</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>ステップイン</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Debugging/Entry/スマートステップイン/0'>
+            <td class='command'>
+              <p>
+                <code>⇧+F7</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>スマートステップイン</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Debugging/Entry/ステップアウト/0'>
+            <td class='command'>
+              <p>
+                <code>⇧+F8</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>ステップアウト</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Debugging/Entry/カーソル位置までステップオーバー/0'>
+            <td class='command'>
+              <p>
+                <code>⌥+F9</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>カーソル位置までステップオーバー</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Debugging/Entry/コードの動的実行/0'>
+            <td class='command'>
+              <p>
+                <code>⌥+F8</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>コードの動的実行</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Debugging/Entry/プログラムの再開/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+R</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>プログラムの再開</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Debugging/Entry/ブレイクポイントをトグル/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+F8</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>ブレイクポイントをトグル</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Debugging/Entry/全ブレイクポイントを表示/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+F8</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>全ブレイクポイントを表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/Navigation/1'>
+          Navigation
+        </h2>
+        <table>
+          <tr id='//dash_ref_Navigation/Entry/クラスを検索/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+O</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>クラスを検索</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/ファイルを検索/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+O</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>ファイルを検索</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/シンボルを検索/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+O</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>シンボルを検索</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/次のタブへ移動/0'>
+            <td class='command'>
+              <p>
+                <code>^+Arrow Left</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>次のタブへ移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/前のタブに移動/0'>
+            <td class='command'>
+              <p>
+                <code>^+Arrow Right</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>前のタブに移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/前のツールウィンドウへ移動/0'>
+            <td class='command'>
+              <p>
+                <code>F12</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>前のツールウィンドウへ移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/ツールウィンドウからエディタへ移動/0'>
+            <td class='command'>
+              <p>
+                <code>Esc</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>ツールウィンドウからエディタへ移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/現在のアクティブ または 1つ前のアクティブウィンドウを非表示/0'>
+            <td class='command'>
+              <p>
+                <code>⇧+Esc</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>現在のアクティブ または 1つ前のアクティブウィンドウを非表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/現在のタブを閉じる/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+F4</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>現在のタブを閉じる</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/指定した行に移動/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+L</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>指定した行に移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/直近に開いたファイル一覧を表示/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+E</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>直近に開いたファイル一覧を表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/直前のカーソル位置へ移動/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+Arrow Left</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>直前のカーソル位置へ移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/直後のカーソル位置へ移動/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+Arrow Right</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>直後のカーソル位置へ移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/最後に編集した行へ移動/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+Delete</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>最後に編集した行へ移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/直前のカーソル位置へ移動/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+Arrow Left</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>直前のカーソル位置へ移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/現在のファイルを○○で開く/0'>
+            <td class='command'>
+              <p>
+                <code>⌥+F1</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>現在のファイルを○○で開く</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/定義元に移動/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+B</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>定義元に移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/実装クラスへ移動/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+B</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>実装クラスへ移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/クラスの定義元に移動/0'>
+            <td class='command'>
+              <p>
+                <code>^+⇧+B</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>クラスの定義元に移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/スーパークラス%2Fスーパーメソッドに移動/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+U</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>スーパークラス/スーパーメソッドに移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/1つ手前のメソッドに移動/0'>
+            <td class='command'>
+              <p>
+                <code>^+Arrow Up</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>1つ手前のメソッドに移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/1つ先のメソッドに移動/0'>
+            <td class='command'>
+              <p>
+                <code>^+Arrow Down</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>1つ先のメソッドに移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/コードブロックの先頭に移動/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+[</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>コードブロックの先頭に移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/コードブロックの末尾に移動/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+]</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>コードブロックの末尾に移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/ファイル構造をポップアップ表示/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+F12</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>ファイル構造をポップアップ表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/クラスの階層構造を表示/0'>
+            <td class='command'>
+              <p>
+                <code>Control+H</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>クラスの階層構造を表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/メソッドの階層構造を表示/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⇧+H</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>メソッドの階層構造を表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/コール状態の階層構造を表示/0'>
+            <td class='command'>
+              <p>
+                <code>^+⌥+H</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>コール状態の階層構造を表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/次のエラーに移動/0'>
+            <td class='command'>
+              <p>
+                <code>F2</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>次のエラーに移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/前のエラーに移動/0'>
+            <td class='command'>
+              <p>
+                <code>⇧+F2</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>前のエラーに移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/ファイルを開く/0'>
+            <td class='command'>
+              <p>
+                <code>F4</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>ファイルを開く</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/ファイルを開く/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+Arrow Down</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>ファイルを開く</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/数字でブックマークをつける%2Fはずす/0'>
+            <td class='command'>
+              <p>
+                <code>F3</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>数字でブックマークをつける/はずす</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/数字%2F文字列でのブックマークをつける%2Fはずす/0'>
+            <td class='command'>
+              <p>
+                <code>⌥+F3</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>数字/文字列でのブックマークをつける/はずす</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/数字でのブックマークへ移動/0'>
+            <td class='command'>
+              <p>
+                <code>^+0...^+9</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>数字でのブックマークへ移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Navigation/Entry/ブックマーク一覧をポップアップ表示/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+F3</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>ブックマーク一覧をポップアップ表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/Refactoring/1'>
+          Refactoring
+        </h2>
+        <table>
+          <tr id='//dash_ref_Refactoring/Entry/カーソル位置をリファクタリング/0'>
+            <td class='command'>
+              <p>
+                <code>^+T</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>カーソル位置をリファクタリング</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Refactoring/Entry/コピー/0'>
+            <td class='command'>
+              <p>
+                <code>F5</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>コピー</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Refactoring/Entry/移動/0'>
+            <td class='command'>
+              <p>
+                <code>F6</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>移動</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Refactoring/Entry/セーフデリート/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+Delete</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>セーフデリート</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Refactoring/Entry/名前変更/0'>
+            <td class='command'>
+              <p>
+                <code>⇧+F6</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>名前変更</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Refactoring/Entry/シグネチャ変更/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+F6</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>シグネチャ変更</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Refactoring/Entry/インライン/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+N</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>インライン</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Refactoring/Entry/メソッドを抜き出す/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+M</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>メソッドを抜き出す</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Refactoring/Entry/変数を追加/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+V</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>変数を追加</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Refactoring/Entry/パラメータを追加/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+P</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>パラメータを追加</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Refactoring/Entry/プロパティを追加/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+E</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>プロパティを追加</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Refactoring/Entry/定数を追加/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+C</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>定数を追加</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Refactoring/Entry/インスタンス変数を追加/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+I</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>インスタンス変数を追加</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/VCS %2F Local History/1'>
+          VCS / Local History
+        </h2>
+        <table>
+          <tr id='//dash_ref_VCS %2F Local History/Entry/コミット/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+K</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>コミット</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_VCS %2F Local History/Entry/アップデート/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+T</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>アップデート</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_VCS %2F Local History/Entry/変更箇所を表示/0'>
+            <td class='command'>
+              <p>
+                <code>⌥+⇧+C</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>変更箇所を表示</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_VCS %2F Local History/Entry/VCS操作をポップアップ/0'>
+            <td class='command'>
+              <p>
+                <code>^+V</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>VCS操作をポップアップ</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/Live Templates/1'>
+          Live Templates
+        </h2>
+        <table>
+          <tr id='//dash_ref_Live Templates/Entry/スニペットで包む/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+⌥+J</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>スニペットで包む</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+          <tr id='//dash_ref_Live Templates/Entry/スニペットを挿入/0'>
+            <td class='command'>
+              <p>
+                <code>⌘+J</code>
+              </p>
+            </td>
+            <td class='description'>
+              <div class='name'><p>スニペットを挿入</p></div>
+              <div class='notes'></div>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class='notes'>
+        <h2>Notes</h2>
+        <ul>
+        <li>Based on the cheat sheet from <a href="http://www.jetbrains.com/phpstorm/documentation/PhpStorm_ReferenceCard.pdf">PhpStorm Default Keymap</a>.</li>
+        <li>Converted and extended by <a href="https://github.com/vexus2">Vexus2</a>.</li>
+        </ul>
+      </section>
+    </article>
+    <footer>
+      You can modify and improve this cheatsheet <a onclick="window.dash.openExternal_(this.href); return false;" href="http://cheat.kapeli.com">here</a>
+    </footer>
+  </body>
+</html>
